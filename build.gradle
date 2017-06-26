@@ -1,0 +1,11 @@
+repositories {
+  jcenter()
+}
+
+mainClassName = "Main"
+
+dependencies {
+  runtime "org.slf4j:slf4j-simple:1.7.12"
+  compile "com.sparkjava:spark-core:2.6.0"
+  testCompile 'junit:junit:4.11'
+}
